@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>My Favourite Things</title>
+</head>
+<body>
+    <main id="app">
+    <h1>{{ welcome }}</h1>
+   <h4>{{ intro }}</h4>
+   <!-- <button @click="logClick"> Click This</button> -->
+   
+   <section v-for="thing in remoteData">
+      
+       <h2>{{ thing.name }}</h2>
+       <h3>{{ thing.type }}</h3>
+        <p>{{ thing.desc}}</p>
+        <img :src='"images/" + thing.image' alt="" width="200" length="200">
+   </section>
+    </main>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="js/main.js" type="module" defer></script>
+    
+</body>
+</html>
