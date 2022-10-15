@@ -1,0 +1,26 @@
+{
+    "Thing1":{
+        "name": "Smart Phone",
+        "type": "I do prefer Iphone",
+        "desc": "Not only can you send texts, emails, and make calls, you have access to a full menu of computer capabilities as well. Mostly anything you can do on a computer, you can perform on a smartphone.",
+        "image": "smart_phone.jpeg"
+    },
+    "Thing2":{
+        "name": "Cat",
+        "type": "A fat one",
+        "desc": "Owning a cat can bring unconditional love and companionship to your life. Having a feline friend can also help to relieve stress and improve your heart health and they are cute.",
+        "image": "cat.gif"
+    },
+    "Thing3":{
+        "name": "Pasta",
+        "type": "Carbonara it is.",
+        "desc": "It's a good source of energy, tastes awesome and can give you fiber, if it's made from whole grain. Plus, pasta can help keep blood sugar regulated due to its low glycemic index ",
+        "image": "pasta.jpeg"
+    },
+    "Thing4":{
+        "name": "Designer Bag",
+        "type": "A heart Prada bag",
+        "desc": "A bag should not only serve to hold and carry its contents, but also to protect. The leather should protect against mechanical shocks which are quite dangerous when laptops or tablets are concerned.",
+        "image": "prada_bag.jpeg"
+    }
+}
