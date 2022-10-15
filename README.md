@@ -6,6 +6,15 @@ HTML & CSS
 Javascript
 Visual Studio Code
 
+##Plan/Path
+1. Create data.json file inlcudes all the require data.
+2. Create index.html to structure the layout of the page and containers to show data.
+3. Create functions in main.js to fetch data and show data.
+4. Create buttons element to show each data set seperately when get clicked.
+5. Create buttons' show function to show data set when click buttons.
+6. After all datas and functions work, style each section/component of the page separately using sass.
+7. Push everything to Github and merge to main branch.
+
 ## Credits
 
 [Nguyen Gia Linh](https://github.com/Ery205275)
