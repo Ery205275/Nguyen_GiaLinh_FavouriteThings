@@ -44,4 +44,13 @@ let Fthings = {};
     document.querySelector(".btn").onclick = function() {
         fadeIn.classList.add("fade");
     };
-  
+
+    
+    function PopUp() {
+        document.querySelector('.thing_panel').style.display = "block";
+      }
+      
+
+      document.getElementById('closeBtn').addEventListener("click",()=> 
+      document.querySelector('.thing_panel').style.display='none');
+    
