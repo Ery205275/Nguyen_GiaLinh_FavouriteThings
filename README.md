@@ -13,7 +13,8 @@ Visual Studio Code
 4. Create buttons element to show each data set seperately when get clicked.
 5. Create buttons' show function to show data set when click buttons.
 6. After all datas and functions work, style each section/component of the page separately using sass.
-7. Push everything to Github and merge to main branch.
+7. Adding a close button to close opened tab (src: https://stackoverflow.com/questions/19127840/adding-close-button-to-auto-pop-up-window). Close function works but has to restart page to see data again. Will work more on this.
+8. Push everything to Github and merge to main branch when finished
 
 ## Credits
 
