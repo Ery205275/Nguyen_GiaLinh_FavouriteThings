@@ -1,12 +1,16 @@
 main{
     display: flexbox;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+   
     color: white;
     padding: 2em;
-    background: #ebbcb5;
+    background: #fed7bf;
     h1{ font-size: 4em;
     margin: 0.5em;}
     h4{ margin-bottom: 20px;}
+    .show_panel{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }

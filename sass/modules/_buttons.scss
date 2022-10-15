@@ -3,16 +3,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+
     button{
         padding: 1em;
-        background-color: #867b8c;
+        background-color: #9a7787;
         outline-color: none;
         border-radius: 10%;
         color: aliceblue;
         font: inherit;
     }
 }
-@media screen and (min-width: 600px ){
+@media screen and (min-width: 700px ){
     .buttons{
         gap: 40px;
         button{
@@ -20,4 +21,15 @@
             padding-right: 30px;
         }
     }
+}
+@media screen and (min-width: 1080px ){
+    .buttons{
+        gap: 60px;
+        button{
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 1.2em;
+            font-weight: bold;
+    }
+}
 }
