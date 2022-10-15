@@ -11,20 +11,31 @@
 </head>
 <body>
     <main id="app">
-    <h1>{{ welcome }}</h1>
-   <h4>{{ intro }}</h4>
-   <!-- <button @click="logClick"> Click This</button> -->
+        <div class="header">
+            <h1>Hello!</h1>
+            <h4>My name is Gia, here are my favourite things.</h4>
+            <div class="buttons">
+                <button class="btn" data-key="Number 1"> Number 1</button>
+                <button class="btn" data-key="Number 2"> Number 2</button>
+                <button class="btn" data-key="Number 3"> Number 3</button>
+                <button class="btn" data-key="Number 4"> Number 4</button>
+                
+            </div>
+        </div>
+   <section id="show-thing"></section>
    
-   <section v-for="thing in remoteData">
+   <section class="thing_panel">
       
-       <h2>{{ thing.name }}</h2>
-       <h3>{{ thing.type }}</h3>
-        <p>{{ thing.desc}}</p>
-        <img :src='"images/" + thing.image' alt="" width="200" length="200">
+       <h2 class="t_name"></h2>
+       <div class="t_image">
+        <img src="" alt="" width="250" length="250">
+    </div>
+       <h3 class="t_type">Click each button to see!</h3>
+        <p class="t_desc"></p>
+
    </section>
     </main>
 
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="js/main.js" type="module" defer></script>
     
 </body>

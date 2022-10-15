@@ -1,0 +1,23 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    button{
+        padding: 1em;
+        background-color: #867b8c;
+        outline-color: none;
+        border-radius: 10%;
+        color: aliceblue;
+        font: inherit;
+    }
+}
+@media screen and (min-width: 600px ){
+    .buttons{
+        gap: 40px;
+        button{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}

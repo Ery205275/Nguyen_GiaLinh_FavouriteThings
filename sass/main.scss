@@ -1,0 +1,10 @@
+//start with imports (order is important)
+@import "./modules/_reset.scss";
+//import mobile styles first
+
+//component files next
+@import "./modules/_main.scss";
+@import "./modules/_header.scss";
+@import "./modules/_buttons.scss";
+//atomic files
+@import "./modules/_thingpanel.scss";
